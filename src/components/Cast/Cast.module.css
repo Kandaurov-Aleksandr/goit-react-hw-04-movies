@@ -1,0 +1,15 @@
+.MovieCastCntainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MovieCastItem {
+    width: 20%;
+    list-style: none;
+}
+
+.CastProfile {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
