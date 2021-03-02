@@ -11,7 +11,7 @@ class HomePage extends Component {
 
     async componentDidMount() {
         const response = await Axios.get(
-            `https://api.themoviedb.org/3/trending/all/day?api_key=189de549f8a757089f82fa92809038d7`
+            `https://api.themoviedb.org/3/trending/all/day?api_key=132f2a543c82d69a556f0bb280a697a7`
         )
 
         this.setState({ movies: response.data.results })

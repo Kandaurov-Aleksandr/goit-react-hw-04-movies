@@ -27,7 +27,7 @@ class MoviesPage extends Component {
 
     searchMovies = async (movie) => {
         const response = await Axios.get(
-            `https://api.themoviedb.org/3/search/movie?api_key=189de549f8a757089f82fa92809038d7&query=${movie}&language=en-US&page=1&include_adult=false`
+            `https://api.themoviedb.org/3/search/movie?api_key=132f2a543c82d69a556f0bb280a697a7&query=${movie}&language=en-US&page=1&include_adult=false`
         )
         this.setState({ searchResult: response.data.results })
         this.props.location.state = { searchName: this.state.searchName }
